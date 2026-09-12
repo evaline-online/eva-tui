@@ -1,0 +1,50 @@
+{
+  "name": "eva-tui",
+  "version": "0.1.0",
+  "description": "EvaLine universal TUI/Web framework — beautiful terminal & browser UI for all EvaLine/EvaBot proxy projects",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "eva-tui": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "tsx --test tests/*.test.ts",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "tui",
+    "terminal",
+    "web",
+    "framework",
+    "ui",
+    "cli",
+    "react",
+    "eva",
+    "evaline"
+  ],
+  "author": "EvaLine Collective",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evaline-online/eva-tui.git"
+  },
+  "dependencies": {
+    "chalk": "^5.4.0",
+    "figlet": "^1.7.0",
+    "ink": "^5.1.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "eslint": "^9.39.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

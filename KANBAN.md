@@ -39,7 +39,8 @@
 - [x] 1.4.1 Unit tests for core modules
 - [x] 1.4.2 TypeScript type checking (passing)
 - [x] 1.4.3 ESLint configuration (passing)
-- [ ] 1.4.4 Test coverage threshold
+- [x] 1.4.4 Security audit (0 vulnerabilities)
+- [ ] 1.4.5 Test coverage threshold
 
 ## Sprint Board (Current: Sprint 0 — Foundations)
 

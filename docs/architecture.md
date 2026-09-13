@@ -30,7 +30,7 @@ Universal text + web UI framework built on a small-core extensible model.
 │  TerminalRenderer     │   │  WebRenderer             │
 │  • ANSI/UTF-8 out     │   │  • Canvas/DOM layout     │
 │  • smartCSR-style     │   │  • CSS variables          │
-│    redraw             │   │  • accessible markup      │
+│    redraw             │  • accessible markup          │
 └───────────────────────┘   └──────────────────────────┘
 ```
 
@@ -83,7 +83,7 @@ Backend pass (convert to bytes/strings)
 Output (stdout / DOM)
 ```
 
-## Interface Types (Typescript)
+## Interface Types (TypeScript)
 
 ```typescript
 // Core

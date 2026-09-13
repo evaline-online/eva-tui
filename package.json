@@ -13,6 +13,7 @@
     "start": "node dist/cli.js",
     "test": "tsx --test tests/*.test.ts",
     "lint": "eslint src --ext .ts",
+    "security-audit": "npm audit --audit-level=high",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [

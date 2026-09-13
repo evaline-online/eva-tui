@@ -9,8 +9,9 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
+      - run: npm ci --frozen-lockfile
       - run: npm run typecheck
       - run: npm run lint
+      - run: npm run security-audit
       - run: npm test
       - run: npm run build
